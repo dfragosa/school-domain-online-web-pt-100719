@@ -28,7 +28,7 @@ class School
   end 
  
  def sort
-   @roster.each_value {|value| puts value.sort.flatten}
+   @roster.each_value {|value| value.sort.flatten}
   end  
    
 # binding.pry 
