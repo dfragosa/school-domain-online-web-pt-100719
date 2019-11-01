@@ -31,7 +31,7 @@ class School
    @name.sort {|students| }
   end  
    
- #binding.pry 
+ binding.pry 
   
 end 
 
