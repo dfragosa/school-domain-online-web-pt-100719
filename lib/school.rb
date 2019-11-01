@@ -31,7 +31,7 @@ class School
    @roster.sort 
   end  
    
- #binding.pry 
+ binding.pry 
   
 end 
 
