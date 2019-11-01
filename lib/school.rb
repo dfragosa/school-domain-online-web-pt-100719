@@ -31,7 +31,7 @@ class School
    @roster.each_value {|value| puts value}
   end  
    
- binding.pry 
+# binding.pry 
   
 end 
 
