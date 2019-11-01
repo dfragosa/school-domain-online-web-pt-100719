@@ -28,7 +28,7 @@ class School
   end 
  
  def sort
-   @roster.sort 
+   @roster.each_value {|value| puts value}
   end  
    
  binding.pry 
