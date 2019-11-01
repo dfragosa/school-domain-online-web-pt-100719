@@ -31,7 +31,7 @@ class School
    @roster.each_value {|value| value.sort}
   end  
    
-# binding.pry 
+ binding.pry 
   
 end 
 
