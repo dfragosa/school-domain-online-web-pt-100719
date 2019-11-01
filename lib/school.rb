@@ -27,8 +27,8 @@ class School
     @name = name
   end 
  
- def sort 
-   
+ def sort
+   @roster.sort {|students|roster[students]}
   end  
    
  #binding.pry 
